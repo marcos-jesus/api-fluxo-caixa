@@ -9,6 +9,8 @@
 .pesquisa {
     display: flex;
     justify-content: space-between;
+    width: 90%;
+    margin-left:3.5rem;
 }
 
 .pesquisar-input {
