@@ -1,0 +1,76 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Sistema de Fluxo de Caixa</h1>
+
+    <hr />
+
+    <div>
+        <div class="div-inlineBlock">
+            <b>Valor Total</b> <br/>
+            R$ 200,00
+        </div>
+        <div class="div-inlineBlock">
+            <b>Receitas</b> <br/>
+            R$ 200,00
+        </div>
+        <div class="div-inlineBlock despesas">
+            <b>Despesas</b> <br/>
+            - 600,00
+        </div>
+
+        <div class="pesquisa text-center mt-5">
+            <div>
+                <form action="/">
+                    <input name="tipo" type="text" class="btn btn-form pesquisar-input" placeholder="Localizar..." />
+                    <button class="btn btn-primary">Buscar</button>
+                </form>
+            </div>
+
+            <div>
+                <a href="/adicionar" class="btn btn-primary"> Adicionar </a>
+            </div>
+        </div>
+    </div>
+
+    <table class="table table-striped mt-5">
+        <thead>
+            <tr>
+                <th>Tipo</th>
+                <th>Valor</th>
+                <th>Status</th>
+                <th>Tipo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pix Recebido</td>
+                <td>R$ 130,00</td>
+                <td>Invoiced</td>
+                <td>
+                    <div class="receita-legenda"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>Notebook i3 10th</td>
+                <td>R$ 3.500,00</td>
+                <td>Invoiced</td>
+                <td class="despesa-legenda">
+                    <div class="despesa-legenda"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>Luva Alpinistar</td>
+                <td>R$ 893,00</td>
+                <td>Invoiced</td>
+                <td>
+                    <div class="despesa-legenda"></div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+</div>

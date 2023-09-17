@@ -1,0 +1,36 @@
+.div-inlineBlock {
+    display: inline-block;
+    width: 30%;
+    height: 70px;
+    background-color: #808080;
+    padding: 10px;
+}
+
+.pesquisa {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pesquisar-input {
+    border: 1px solid #0d6efd;
+}
+
+.btn {
+    margin-left:10px;
+}
+
+.despesas {
+    background-color: red;
+}
+
+.despesa-legenda {
+    background-color:red;
+    width: 30px;
+    height: 10px;
+}
+
+.receita-legenda {
+    background-color: blue;
+    width: 30px;
+    height: 10px;
+}
